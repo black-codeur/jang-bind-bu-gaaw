@@ -1,0 +1,144 @@
+/* Styles généraux optimisés pour les smartphones */
+* {
+    text-align: center;
+    font-size: 4vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.chant {
+    font-size: 8vw;
+}
+
+#chantdetexte span {
+    font-weight: bold;
+}
+
+.choix {
+    font-size: 4vw;
+}
+
+.Cadre {
+    background-color: rgb(88, 223, 88);
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.Cadre p {
+    margin-top: 20px;
+    font-size: 4vw;
+}
+
+.this {
+    width: 20px;
+    height: 20px;
+}
+
+.proposition {
+    background-color: white;
+    margin: 10px auto;
+    border-radius: 30px;
+    width: 80%;
+    padding: 10px;
+}
+
+.saisi {
+    border-radius: 30px;
+    width: 80%;
+    padding: 10px;
+    font-size: 4vw;
+    margin: 10px auto;
+    display: block;
+}
+
+.typesaisie {
+    margin: 10px auto;
+}
+
+.saisie {
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    font-size: 4vw;
+}
+
+.score span {
+    margin-left: 10px;
+}
+
+header .title {
+    color: linear-gradient(90deg, rgba(70,209,55,1) 0%, rgba(61,235,61,1) 100%);
+    font-size: 6vw;
+    margin-top: 10px;
+}
+
+header {
+    margin-top: 10px;
+    color: rgb(70, 209, 55);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.div {
+    margin-top: 10px;
+    color: rgba(30, 209, 27, 0.981);
+    font-size: 4vw;
+}
+
+.phchoix {
+    margin-top: 20px;
+    font-size: 4vw;
+}
+
+.footer-container {
+    background-color: rgb(61, 235, 61);
+    height: 60px;
+    border-radius: 30px;
+    font-size: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.timer {
+    font-size: 5vw;
+    color: red;
+    margin-top: 10px;
+}
+
+/* Media query pour petits écrans */
+@media (max-width: 768px) {
+    .Cadre {
+        width: 95%;
+    }
+
+    .proposition {
+        width: 90%;
+    }
+
+    .saisi {
+        width: 90%;
+    }
+
+    header .title {
+        font-size: 8vw;
+    }
+
+    .footer-container {
+        height: 70px;
+        font-size: 5vw;
+    }
+}
+
